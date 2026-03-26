@@ -6,7 +6,7 @@ const nextConfig = {
       'via.placeholder.com',
       'i.imgur.com',
       'fakestoreapi.com',
-      'i.pravatar.cc' // এই লাইনটি যোগ করা হয়েছে
+      'i.pravatar.cc'
     ],
   },
 }
