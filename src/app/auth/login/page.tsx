@@ -25,7 +25,6 @@ export default function LoginPage() {
       await login(data.email, data.password);
       router.push('/');
     } catch {
-      // Error handled in context
     } finally {
       setLoading(false);
     }
@@ -42,7 +41,6 @@ export default function LoginPage() {
       await googleLogin();
       router.push('/');
     } catch {
-      // handled
     } finally {
       setGoogleLoading(false);
     }

@@ -65,7 +65,7 @@
     @apply bg-gradient-to-r from-primary-500 to-accent-600 bg-clip-text text-transparent;
   }
 
-  /* Dashboard sidebar (Fixed Error) */
+  /* Dashboard sidebar */
   .sidebar-link {
     @apply flex items-center gap-3 px-4 py-3 rounded-xl text-gray-600 dark:text-gray-400 hover:bg-primary-50 hover:dark:bg-primary-950/30 hover:text-primary-600 hover:dark:text-primary-400 transition-all duration-200 font-medium;
   }
@@ -79,7 +79,7 @@
   }
 }
 
-/* --- Non-Tailwind Custom Styles --- */
+/* Non-Tailwind Custom Styles */
 
 /* Custom scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
