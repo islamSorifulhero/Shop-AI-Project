@@ -239,6 +239,7 @@ export default function ProductDetailPage() {
             </div>
           </div>
 
+
           {/* Related Products */}
           {related.length > 0 && (
             <section>

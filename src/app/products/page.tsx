@@ -57,6 +57,7 @@ export default function ProductsPage() {
       <Navbar />
       <main className="min-h-screen bg-gray-50 dark:bg-gray-950 pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          
           {/* Header */}
           <div className="mb-8">
             <h1 className="text-3xl font-display font-bold text-gray-900 dark:text-white mb-1">All Products</h1>
@@ -108,6 +109,7 @@ export default function ProductsPage() {
                 </button>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
                 {/* Category */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Category</label>
@@ -115,16 +117,19 @@ export default function ProductsPage() {
                     {categories.map(c => <option key={c} value={c === 'All' ? '' : c}>{c}</option>)}
                   </select>
                 </div>
+
                 {/* Min Price */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Min Price ($)</label>
                   <input type="number" value={minPrice} onChange={e => { setMinPrice(e.target.value); setPage(1); }} placeholder="0" className="input-field text-sm" />
                 </div>
+
                 {/* Max Price */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Max Price ($)</label>
                   <input type="number" value={maxPrice} onChange={e => { setMaxPrice(e.target.value); setPage(1); }} placeholder="500" className="input-field text-sm" />
                 </div>
+
                 {/* Rating */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Min Rating</label>
