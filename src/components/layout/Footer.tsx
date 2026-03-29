@@ -65,15 +65,16 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-primary-400 mt-0.5 shrink-0" />
-                <span>123 Tech Street, Silicon Valley, CA 94025</span>
+                <span>Aqua Tower 43, Mohakhali C/A, Dhaka, Bangladesh</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary-400 shrink-0" />
-                <a href="tel:+11234567890" className="hover:text-primary-400 transition-colors">+1 (123) 456-7890</a>
+                <a href="tel:+11234567890" className="hover:text-primary-400 transition-colors">+88 01770-886813</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary-400 shrink-0" />
-                <a href="mailto:hello@shopai.com" className="hover:text-primary-400 transition-colors">hello@shopai.com</a>
+                <a href="mailto:hello@shopai.com" className="hover:text-primary-400 transition-colors">islamsoriful.hero@gmail.com
+                </a>
               </li>
             </ul>
             {/* Newsletter */}
