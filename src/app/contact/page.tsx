@@ -41,9 +41,9 @@ export default function ContactPage() {
               {/* Info */}
               <div className="space-y-6">
                 {[
-                  { icon: Mail, title: 'Email Us', info: 'hello@shopai.com', sub: 'We reply within 24 hours' },
-                  { icon: Phone, title: 'Call Us', info: '+1 (123) 456-7890', sub: 'Mon–Fri, 9AM–6PM EST' },
-                  { icon: MapPin, title: 'Visit Us', info: '123 Tech Street', sub: 'Silicon Valley, CA 94025' },
+                  { icon: Mail, title: 'Email Us', info: 'islamsoriful.hero@gmail.com', sub: 'We reply within 24 hours' },
+                  { icon: Phone, title: 'Call Us', info: '+88 01770-886813', sub: 'Mon–Fri, 9AM–6PM EST' },
+                  { icon: MapPin, title: 'Visit Us', info: 'Mohakhali, Dhaka', sub: 'Aqua Tower 43, Mohakhali C/A, Dhaka, Bangladesh' },
                   { icon: Clock, title: 'Support Hours', info: '24/7 AI Support', sub: 'Human agents: Mon–Fri' },
                 ].map(item => (
                   <div key={item.title} className="flex gap-4">
@@ -74,12 +74,12 @@ export default function ContactPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">Your Name</label>
-                        <input {...register('name', { required: 'Name is required' })} placeholder="John Doe" className="input-field" />
+                        <input {...register('name', { required: 'Name is required' })} placeholder="name" className="input-field" />
                         {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name.message}</p>}
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1.5">Email Address</label>
-                        <input type="email" {...register('email', { required: 'Email is required' })} placeholder="john@example.com" className="input-field" />
+                        <input type="email" {...register('email', { required: 'Email is required' })} placeholder="abul@gmail.com" className="input-field" />
                         {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email.message}</p>}
                       </div>
                     </div>
