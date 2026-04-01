@@ -7,7 +7,6 @@ export default function Footer() {
     <footer className="bg-gray-950 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-          {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 bg-gradient-to-br from-primary-500 to-accent-500 rounded-xl flex items-center justify-center">
@@ -27,7 +26,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Shop */}
           <div>
             <h3 className="font-semibold text-white mb-4">Shop</h3>
             <ul className="space-y-2.5 text-sm">
@@ -40,7 +38,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Help */}
           <div>
             <h3 className="font-semibold text-white mb-4">Help & Info</h3>
             <ul className="space-y-2.5 text-sm">
@@ -59,7 +56,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h3 className="font-semibold text-white mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
@@ -78,7 +74,6 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            {/* Newsletter */}
             <div className="mt-6">
               <p className="text-sm font-medium text-white mb-3">Subscribe to newsletter</p>
               <div className="flex gap-2">
