@@ -27,7 +27,6 @@ export default function ContactPage() {
     <>
       <Navbar />
       <main className="min-h-screen pt-16">
-        {/* Hero */}
         <section className="hero-gradient py-16">
           <div className="max-w-3xl mx-auto px-4 text-center">
             <h1 className="font-display text-4xl font-bold text-gray-900 dark:text-white mb-3">Get in Touch</h1>
@@ -38,7 +37,6 @@ export default function ContactPage() {
         <section className="py-16 bg-white dark:bg-gray-950">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-              {/* Info */}
               <div className="space-y-6">
                 {[
                   { icon: Mail, title: 'Email Us', info: 'islamsoriful.hero@gmail.com', sub: 'We reply within 24 hours' },
@@ -59,7 +57,6 @@ export default function ContactPage() {
                 ))}
               </div>
 
-              {/* Form */}
               <div className="lg:col-span-2 card p-8">
                 {sent ? (
                   <div className="text-center py-10">
