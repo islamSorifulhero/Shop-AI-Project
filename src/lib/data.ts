@@ -71,7 +71,7 @@ export const products: Product[] = [
     description: 'Non-slip, eco-friendly yoga mat perfect for all types of yoga and exercise. Extra thick 6mm cushioning provides joint support. Includes carrying strap.',
     price: 45.99,
     category: 'Sports',
-    image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600',
+    image: 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=600',
     rating: 4.5,
     reviewCount: 156,
     stock: 92,
