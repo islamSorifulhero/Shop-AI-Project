@@ -2,6 +2,8 @@
 
 A full-featured e-commerce platform built with Next.js 14, TypeScript, Tailwind CSS, Firebase, and Claude AI.
 
+## Live link: https://shop-ai-project.vercel.app
+
 ## 🚀 Quick Start (VS Code)
 
 ### 1. Install dependencies
